@@ -115,7 +115,7 @@ function Cell(i, j) {
 
         if (this.visited) {
             noStroke();
-            fill(190, 50, 50, 255);
+            fill(100, 100, 100, 255);
             rect(x, y, w, w);
         }
     };
