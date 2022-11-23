@@ -37,7 +37,7 @@ function draw() {
         displayPath();
         for (let i = 0; i < shortestPath.length; i++) {
             noStroke();
-            fill(0, 200, 0, 50);
+            fill(0, 200, 255, 50);
             rect(shortestPath[i].i * w, shortestPath[i].j * w, w - 5, w - 5);
         }
         noStroke();
