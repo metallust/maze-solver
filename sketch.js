@@ -1,6 +1,6 @@
 var grid = [];
 var cols, rows;
-var w = 40;
+var w = 30;
 var player;
 var stack = [];
 var next;
@@ -42,7 +42,7 @@ function draw() {
         }
         noStroke();
     } else play();
-    frameRate(10);
+//     frameRate(10);
 }
 
 function play() {
